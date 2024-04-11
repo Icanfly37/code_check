@@ -1,0 +1,101 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.post {
+  margin: 8px 0px;
+  padding: 0px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+.post .title h3{
+  margin: 0px;
+  padding: 8px 12px;
+  color: #fff;
+}
+
+.post .content{
+  padding: 8px 12px;
+}
+
+.content img{
+  display: inline;
+  float: left;
+  padding: 12px;
+  line-height: 100px;
+}
+
+/*.post .content img{
+  margin: 0px;
+  padding: 0px;
+}*/
+
+.bordered {
+  border: 1px solid blue;
+}
+
+.bg-blue {
+  background-color: #006699;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 32px;
+  color: #2bd06a;
+  margin-left: 24px;
+  margin-bottom: 12px;
+}
+
+.header {
+  padding-top: 32px;
+}
+
+.navbar {
+  padding: 8px;
+}
+
+.navbar a {
+  color: #2bd06a;
+  margin: 12px;
+  
+}
+
+.news {
+  /*padding: 12px 8px 12px 8px;*/
+  padding: 12px 8px;
+}
+
+.pic_size {
+  width: 80px;
+  height: 80px;
+}
